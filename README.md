@@ -193,8 +193,8 @@ Endpoint utilizado: /auth/v1/token?grant_type=password
 ## Resultados Obtidos
 Durante a execução dos testes de caixa cinza na API de autenticação do Supabase, foram observados os seguintes resultados:
 - O login com credenciais válidas retornou status 200 (OK) e gerou corretamente o access token, permitindo autenticação com sucesso.
-- Ao informar senha incorreta, a API retornou erro de autenticação com status 401, impedindo o acesso.
-- Para usuário inexistente, a resposta retornou erro indicando que as credenciais são inválidas, também com status 401.
+- Ao informar senha incorreta, a API retornou erro de autenticação com status 400, impedindo o acesso.
+- Para usuário inexistente, a resposta retornou erro indicando que as credenciais são inválidas, também com status 400.
 - Quando os campos foram enviados vazios, a API retornou erro de validação, informando que os dados são obrigatórios.
 - Em casos de credenciais inválidas ou mal formatadas, a API retornou mensagens de erro apropriadas, sem geração de token.
 De forma geral, a API se comportou conforme o esperado, bloqueando acessos inválidos e permitindo apenas autenticações válidas. O sistema apresentou respostas consistentes em todos os cenários testados.
