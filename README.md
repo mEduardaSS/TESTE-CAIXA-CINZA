@@ -175,7 +175,7 @@ Endpoint utilizado: /auth/v1/token?grant_type=password
 
   <img width="1080" height="661" alt="image" src="https://github.com/user-attachments/assets/65c66391-6e84-4870-8f33-563c5f961865" />
 
-Os testes foram registrados em uma planilha estruturada contendo todos os cenários executados, entradas utilizadas e resultados obtidos.
+- Os testes foram registrados em uma planilha estruturada contendo todos os cenários executados, entradas utilizadas e resultados obtidos.
 
 ## Registro dos teste 
 
@@ -204,3 +204,8 @@ Os testes foram executados com sucesso, validando o funcionamento da autenticaç
 Um dos principais desafios foi a execução dos testes no Postman, pois eu tinha pouca familiaridade com a ferramenta. A configuração de requisições, headers e endpoints exigiu prática, mas essa experiência ajudou bastante no meu aprendizado.
 Como ponto de melhoria, foram identificadas mensagens de erro pouco detalhadas em alguns casos, além da necessidade de melhor padronização dessas mensagens e inclusão de logs mais completos na API.
 Por fim, os testes de caixa cinza se mostraram importantes por permitirem validar tanto o comportamento externo quanto aspectos internos da API, aumentando sua confiabilidade e segurança.
+
+##
+
+- Maria Eduarda Souza Santos | 240212 
+
